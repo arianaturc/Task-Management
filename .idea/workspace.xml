@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8566a247-a26c-4cec-90b3-33b420d803ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/businessLogic/TasksManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/businessLogic/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataAccess/DataPersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/ComplexTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/SimpleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphicalUserInterface/TasksManagementView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pt2025_30422_turc_ariana_assignment_1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pt2025_30422_turc_ariana_assignment_1/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataAccess/DataPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataAccess/DataPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphicalUserInterface/TasksManagementView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphicalUserInterface/TasksManagementView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +96,9 @@
       <workItem from="1742234616969" duration="3000" />
       <workItem from="1742312345007" duration="10734000" />
       <workItem from="1742378993371" duration="335000" />
-      <workItem from="1742379344103" duration="1321000" />
+      <workItem from="1742379344103" duration="4050000" />
+      <workItem from="1742385898518" duration="6144000" />
+      <workItem from="1742406512042" duration="2307000" />
     </task>
     <servers />
   </component>

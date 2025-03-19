@@ -20,7 +20,7 @@ public class DataPersistence {
         }
 
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
-            return (TasksManagement) ois.readObject(); // Read the object from the file
+            return (TasksManagement) ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
             return new TasksManagement();

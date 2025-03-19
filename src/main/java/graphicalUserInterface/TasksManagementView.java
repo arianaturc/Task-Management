@@ -242,9 +242,9 @@ public class TasksManagementView {
 
         addButton.setOnAction(e -> {
             try {
-                int taskId = Integer.parseInt(taskIdField.getText()); // Parse task ID
-                String status = statusField.getText(); // Get status
-                String taskType = taskTypeBox.getValue(); // Get task type
+                int taskId = Integer.parseInt(taskIdField.getText());
+                String status = statusField.getText();
+                String taskType = taskTypeBox.getValue();
 
                 if (taskType == null) {
                     messageLabel.setText("Error: Please select a task type.");
@@ -449,7 +449,7 @@ public class TasksManagementView {
 
 
         Label headingLabel = new Label("Employees that worked more than 40 hours");
-        headingLabel.setStyle("-fx-font-size: 18px; -fx-font-weight: bold;"); // Change font size and make it bold
+        headingLabel.setStyle("-fx-font-size: 18px; -fx-font-weight: bold;");
 
         ListView<String> statisticsListView = new ListView<>();
         statisticsListView.setPrefWidth(340);
