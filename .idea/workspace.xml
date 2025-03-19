@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8566a247-a26c-4cec-90b3-33b420d803ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/pt2025_30422_turc_ariana_assignment_1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/pt2025_30422_turc_ariana_assignment_1/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/businessLogic/TasksManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/businessLogic/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataAccess/DataPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/ComplexTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/SimpleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataModel/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphicalUserInterface/TasksManagementView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pt2025_30422_turc_ariana_assignment_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pt2025_30422_turc_ariana_assignment_1/HelloApplication.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,24 +41,33 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2u5Go3BZk76dYSpEvWcq9G8F84J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EmployeeAndTaskView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskManagerApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TasksManagementView.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,7 +84,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741531195536</updated>
-      <workItem from="1741531196571" duration="1000" />
+      <workItem from="1741531196571" duration="6860000" />
+      <workItem from="1741615519692" duration="6406000" />
+      <workItem from="1741710382245" duration="6733000" />
+      <workItem from="1741764187860" duration="9576000" />
+      <workItem from="1741788702739" duration="2084000" />
+      <workItem from="1741806984492" duration="7146000" />
+      <workItem from="1741845984968" duration="929000" />
+      <workItem from="1741853513936" duration="884000" />
+      <workItem from="1741854414546" duration="3613000" />
+      <workItem from="1742048149881" duration="8504000" />
+      <workItem from="1742057040610" duration="1972000" />
+      <workItem from="1742119719256" duration="13735000" />
+      <workItem from="1742133589172" duration="2903000" />
+      <workItem from="1742136527061" duration="3931000" />
+      <workItem from="1742202020519" duration="260000" />
+      <workItem from="1742212619109" duration="9003000" />
+      <workItem from="1742224745325" duration="307000" />
+      <workItem from="1742234559232" duration="25000" />
+      <workItem from="1742234616969" duration="3000" />
+      <workItem from="1742312345007" duration="10734000" />
+      <workItem from="1742378993371" duration="335000" />
+      <workItem from="1742379344103" duration="1321000" />
     </task>
     <servers />
   </component>
