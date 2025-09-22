@@ -15,7 +15,6 @@ public class Utility {
                 .filter(entry -> entry.getValue() > 40)
                 .sorted(Map.Entry.comparingByValue())
                 .forEach(entry -> System.out.println(entry.getKey().getName() + " has worked " + entry.getValue() + " hours"));
-
     }
 
     public static Map<String, Map<String, Integer>> calculateTaskStatusCount(TasksManagement tasksManagement) {

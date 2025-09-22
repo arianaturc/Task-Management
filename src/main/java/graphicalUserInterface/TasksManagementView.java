@@ -153,7 +153,7 @@ public class TasksManagementView {
                         "Employee ID: " + employeeId + " -> Task: " + taskIds.stream()
                                 .map(taskId -> {
                                     Task task = taskManager.getTaskById(taskId);
-                                    return task != null ? "ID: " + task.getIdTask() + ", Duration: " + task.estimateDuration() + " hrs" : "Task not found";
+                                    return task != null ? "ID: " + task.getIdTask() + "- Duration: " + task.estimateDuration() + " hrs" : "Task not found";
                                 })
                                 .collect(Collectors.joining(", "))
                 );
