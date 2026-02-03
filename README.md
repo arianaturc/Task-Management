@@ -51,11 +51,11 @@ The system follows **object-oriented programming principles**, uses a **layered 
 
 ### GUI (JavaFX)
 The **JavaFX interface** allows the project manager to:  
-- ✔ Add employees and tasks  
-- ✔ Assign tasks  
-- ✔ Modify task statuses  
-- ✔ View employees, tasks, and statistics
-- ✔ Calculate employee work duration
+- ✓ Add employees and tasks  
+- ✓ Assign tasks  
+- ✓ Modify task statuses  
+- ✓ View employees, tasks, and statistics
+- ✓ Calculate employee work duration
 
 ---
 
