@@ -1,6 +1,6 @@
-# 🗂️ Task Management System (Java, OOP, JavaFX)
+# 📝 Task Management System (Java, OOP, JavaFX)
 
-## 📖 Overview
+##  Overview
 This project is an **Employee Task Management System** built in Java for the **Fundamental Programming Techniques** course (2025, Technical University of Cluj-Napoca).  
 
 It allows a project manager of a software company to:  
@@ -15,25 +15,25 @@ The system follows **object-oriented programming principles**, uses a **layered 
 
 ---
 
-## 👩‍💻 Features
-- ✔️ **Employee Management**: Add and list employees.  
-- ✔️ **Task Management**:  
+##  Features
+-  **Employee Management**: Add and list employees.  
+-  **Task Management**:  
   - Create **SimpleTask** (with start and end hours).  
   - Create **ComplexTask** (composed of simple and/or complex tasks).  
   - Assign tasks to employees.  
-- ✔️ **Task Tracking**:  
+-  **Task Tracking**:  
   - Update task status (Completed / Uncompleted).  
   - Estimate task durations automatically.  
-- ✔️ **Statistics & Reporting**:  
+-  **Statistics & Reporting**:  
   - Calculate each employee’s total work duration (only for completed tasks).  
   - Filter and display employees working more than 40 hours, sorted by duration.  
   - Count completed vs uncompleted tasks per employee.  
-- ✔️ **Persistence**: All data (employees, tasks, statuses) is stored using **serialization**.  
-- ✔️ **GUI**: JavaFX interface for project managers to interact with the system.  
+-  **Persistence**: All data (employees, tasks, statuses) is stored using **serialization**.  
+-  **GUI**: JavaFX interface for project managers to interact with the system.  
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ### Core Classes
 - **Employee** → Represents an employee (ID, name).  
@@ -51,15 +51,15 @@ The system follows **object-oriented programming principles**, uses a **layered 
 
 ### GUI (JavaFX)
 The **JavaFX interface** allows the project manager to:  
-- Add employees and tasks  
-- Assign tasks  
-- Modify task statuses  
-- View employees, tasks, and statistics
-- Calculate employee work duration
+- ✔ Add employees and tasks  
+- ✔ Assign tasks  
+- ✔ Modify task statuses  
+- ✔ View employees, tasks, and statistics
+- ✔ Calculate employee work duration
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - **Language**: Java (OOP, sealed classes)  
 - **GUI**: JavaFX  
 - **Persistence**: Serialization (Java IO)  
